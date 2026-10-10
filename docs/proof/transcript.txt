@@ -1,0 +1,18 @@
+$ bash -e -o pipefail -c javac Main.java && java Main --self-test && java Main < examples/input.txt
+tests passed
+reachable=true,latency_ms=7.000,path=field|switchB|control
+
+$ java Main
+reachable=true,latency_ms=7.000,path=field|switchB|control
+
+$ java Main
+missing input
+
+$ java Main
+invalid CSV row
+
+$ java Main --unsupported
+unsupported command arguments
+
+$ java Main
+input record too large
