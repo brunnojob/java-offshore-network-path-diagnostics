@@ -17,6 +17,7 @@ public class Main {
         String line;
         while ((line = reader.readLine()) != null) {
             require(rows.size() < 100000, "input limit exceeded");
+            require(line.length() <= 8192, "input record too large");
             var row = line.split(",", -1);
             require(row.length == columns && Arrays.stream(row).noneMatch(String::isBlank), "invalid CSV row");
             rows.add(row);
@@ -26,6 +27,7 @@ public class Main {
     }
     public static void main(String[] args) {
         try {
+            require(args.length == 0 || (args.length == 1 && args[0].equals("--self-test")), "unsupported command arguments");
             if (args.length == 1 && args[0].equals("--self-test")) { test(); System.out.println("tests passed"); }
             else run();
         } catch (Exception e) { System.err.println(e.getMessage()); System.exit(2); }
