@@ -1,0 +1,4 @@
+field,switchA,1,UP
+switchA,control,2,DOWN
+field,switchB,3,UP
+switchB,control,4,UP
