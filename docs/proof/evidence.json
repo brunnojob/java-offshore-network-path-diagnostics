@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "repository": "brunnojob/java-offshore-network-path-diagnostics",
-  "source_commit": "ea2373f12b0cea6c05bdcf92c6d87109353c9424",
-  "generated_at": "2026-10-10T02:35:53.444018+00:00",
-  "run_url": "https://github.com/brunnojob/java-offshore-network-path-diagnostics/actions/runs/38017533931",
+  "source_commit": "ecd78cac92026944ceb88c9bac242f7566345623",
+  "generated_at": "2026-10-10T02:43:58.606574+00:00",
+  "run_url": "https://github.com/brunnojob/java-offshore-network-path-diagnostics/actions/runs/38018020906",
   "inputs_sha256": {
     ".proof/scenarios.json": "c0d8ddd6bf2b9cdfbe4e081b44af915ceb34dc3521f377dd6972895b9c9a8b50",
     "examples/input.txt": "334915653ca5e4801e33ac58dcb6366bde2179bd260a68e0cc762125c1e38357"
@@ -23,7 +23,7 @@
       "exit": 0,
       "expected_exit": 0,
       "passed": true,
-      "seconds": 2.862,
+      "seconds": 1.758,
       "output": "tests passed\nreachable=true,latency_ms=7.000,path=field|switchB|control\n",
       "output_sha256": "249e19dbb538dce4bf3fa198114cd6ce9439ca7b4b544908c5bff2e2fedaac27"
     },
