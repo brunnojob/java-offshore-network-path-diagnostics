@@ -1,5 +1,7 @@
 # java-offshore-network-path-diagnostics
 
+[View execution evidence](https://brunnojob.github.io/devstart-lab/proofs/java-offshore-network-path-diagnostics/)
+
 Find healthy communication paths around failed links using latency-weighted Dijkstra routing.
 
 ```sh
